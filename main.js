@@ -14,7 +14,7 @@ function drop(event) {
 		} else {
 			what.insertBefore(where);
 		}
-		$.each($('tr > td:first-child'), function (index, value) {
+		$.each($('#lists table tr > td:first-child'), function (index, value) {
 			$(value).text(index + 1);
 		});
 	}
@@ -25,7 +25,7 @@ function drag(event) {
 }
 
 $(document).ready(function() {
-	$('tr').each(function() {
+	$('#lists table tr').each(function() {
 		var trEl = $(this); 
 		trEl.attr('draggable', 'true');
 		trEl.attr('ondragstart', 'drag(event)');

@@ -108,7 +108,7 @@ div {
 	left: 51%;
 }
 
-#areas > table {
+#areas table {
 	font-variant: small-caps;
 	font-size: 90%;
   	border-spacing: 5px;
@@ -129,31 +129,41 @@ div {
 
 #lists {
  	width: 50%;
-	text-align: center;
 	position: relative;
 	left: 55%;
 }
 
 
-#lists > table {
-	width: 100%;
+#lists table {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	border-spacing: 10px;
-    border-collapse: separate;
+    border-collapse: collapse;
+	text-align: center;
 }
 
 
-#lists > table thead, tbody {
-	display: block;
+#lists table tr {
+	border-bottom: 1px dotted gray;
 }
 
-#lists > table tbody {
-	overflow: auto;
-	height: 200px;
+#lists table tr:hover {
+	cursor: pointer;
+	background-color: gray;
 }
 
-#lists > table tr {
-	display: table-row;
-	outline: thin solid black;
+#lists table td {
+	padding: 0px 5px;
+}
+
+#lists table  td:first-child {
+	border-right: 2px solid black;
+}
+
+#lists table th:last-child, td:last-child {
+	text-align: left;
 }
 
 img.nool
