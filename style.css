@@ -1,0 +1,149 @@
+body {
+	padding: 0px 20px;
+	margin: 0px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: brown;
+	font-size: 80%;
+	padding-left: 5px;
+}
+
+
+div {
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 20px;
+	background: #F0F0F0;
+	font-family: sans-serif;
+}
+
+#menu {
+	margin-top: 5px;
+	border: none;
+	border-radius: 0px;
+	background: none;
+	padding-left: 10px;
+	padding-top: 3px;
+	background: none;
+}
+
+#menu > * {
+	display: inline-block;
+}
+
+#greeting {
+	border: none;
+	width: 20%;
+	text-align: right;
+	border-radius: 0px;
+	background: none;
+	position: absolute;
+	right: 0px;
+	
+}
+
+#messages {
+	width: 60%;
+	margin-top: 40px;
+	color: red;
+	text-align: center;
+	padding: 20px;
+	letter-spacing: 1.5px;
+}
+
+#container {
+	margin-top: 50px;
+  	border-style: none;
+	background-color: blue;
+	float: left;
+	width: 100%;
+}
+
+#container2, #container3 {
+	float: left;
+	width: 100%;
+}
+
+#container > div {
+	float: left;
+	display: inline-block;
+	margin: 0;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 0px;
+	
+}
+
+.listState {
+	padding: 2px; 
+	border: 1px solid black; 
+	border-radius: 5px; 
+	background-color: gray; 
+	font-size: small; 
+	font-variant: normal;
+	font-style: italic;
+	margin-left: -10%;
+	display: inline-block;
+	font-size: 0.7em;
+	width: 6em;
+}
+
+#areas {
+	width: 45%;
+}
+
+#areas > table {
+	font-variant: small-caps;
+	font-size: 90%;
+  	border-spacing: 5px;
+    border-collapse: separate;
+}
+
+#areas table td {
+	padding: 5px;
+}
+
+#areas table td:nth-child(1) {
+	text-align: right;
+}
+
+#areas table td:nth-child(2) {
+	white-space: nowrap;
+}
+
+#lists {
+ 	width: 50%;
+	text-align: center;
+}
+
+
+#lists > table {
+	width: 100%;
+	border-spacing: 10px;
+    border-collapse: separate;
+}
+
+
+#lists > table thead, tbody {
+	display: block;
+}
+
+#lists > table tbody {
+	overflow: auto;
+	height: 200px;
+}
+
+#lists > table tr {
+	display: table-row;
+	outline: thin solid black;
+}
+
+img.nool
+{
+width:15px;
+height:15px;
+background:url(nool.PNG) -15px 0;
+background-size: 45px 15px;
+}
