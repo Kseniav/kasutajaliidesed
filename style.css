@@ -13,8 +13,6 @@ a {
 
 div {
 	margin: 0 auto;
-	border: 2px solid;
-	border-radius: 20px;
 	background: #F0F0F0;
 	font-family: sans-serif;
 }
@@ -47,23 +45,37 @@ div {
 #messages {
 	width: 60%;
 	margin-top: 40px;
+	margin-bottom: 20px;
 	color: red;
 	text-align: center;
 	padding: 20px;
 	letter-spacing: 1.5px;
+	border: 1px solid red;
+	border-radius: 20px;
 }
 
 #container {
-	margin-top: 50px;
-  	border-style: none;
-	background-color: blue;
+	padding: 0px;
 	float: left;
 	width: 100%;
+	position: relative;
+	right: 15px;
 }
 
-#container2, #container3 {
+#container2 {
 	float: left;
 	width: 100%;
+	position: relative;
+	right: 50%;
+	background-color: white;
+}
+
+#container3 {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 20px;
 }
 
 #container > div {
@@ -71,9 +83,9 @@ div {
 	display: inline-block;
 	margin: 0;
 	padding: 5px;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	border-radius: 0px;
-	
+	background: none;
 }
 
 .listState {
@@ -92,6 +104,8 @@ div {
 
 #areas {
 	width: 45%;
+	position: relative;
+	left: 51%;
 }
 
 #areas > table {
@@ -110,12 +124,14 @@ div {
 }
 
 #areas table td:nth-child(2) {
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 }
 
 #lists {
  	width: 50%;
 	text-align: center;
+	position: relative;
+	left: 55%;
 }
 
 
