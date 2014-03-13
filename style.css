@@ -147,3 +147,19 @@ height:15px;
 background:url(nool.PNG) -15px 0;
 background-size: 45px 15px;
 }
+
+img.notnool
+{
+width:15px;
+height:15px;
+background:url(nool.PNG) 0px 0;
+background-size: 45px 15px;
+}
+
+img.downnool
+{
+width:15px;
+height:15px;
+background:url(nool.PNG) 15px 0;
+background-size: 45px 15px;
+}
